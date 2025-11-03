@@ -3,6 +3,10 @@ package university;
 public class Person {
 	private String name;
 	
+	public Person() {
+		this("No Name");
+	}
+	
 	public Person(String name) {
 		setName(name);
 	}

@@ -8,6 +8,9 @@ public class Employee extends Person {
 	
 	public Employee(String name, int hireYear,int employeeNum, Department dept) {
 		super(name);
+		this.hireYear=hireYear;
+		setEmployeeNumber(employeeNum);
+		this.setDepartment(dept);
 	}
 
 	public int getHireYear() {
