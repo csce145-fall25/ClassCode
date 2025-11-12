@@ -19,11 +19,13 @@ public class GotMilk3 {
 			System.out.println(e.getClass()+" "+e.getMessage());
 		} catch(IllegalArgumentException e) {
 			System.out.println("No milk!"+"\nGo get some milk");
+		} finally {
+			System.out.println("End of program."); 
 		}
 
 
 		
-		System.out.println("End of program.");
+		
 		
 	}
 }
