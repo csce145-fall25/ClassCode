@@ -75,13 +75,13 @@ public class FileOuput {
 			for(int i = 1; ; ++i) {
 				if(!s.hasNextLine())
 					break;
-				System.out.println(i + s.nextLine());
+				System.out.println(i +" "+ s.nextLine());
 			}
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
+		} finally {
+			if( s != null) s.close();
 		}
-		
-		
 	}
 	
 }

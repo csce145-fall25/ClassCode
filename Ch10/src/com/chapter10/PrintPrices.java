@@ -7,8 +7,8 @@ import java.util.Scanner;
 
 public class PrintPrices {
 	public static void main(String[] args) {
-		String path = "/home/oreillyj/Documents/CSCE145/inventory.csv"; //absolute path
-//		String path = "../../inventory.csv"; //relative path
+//		String path = "/home/oreillyj/Documents/CSCE145/inventory.csv"; //absolute path
+		String path = "../../inventory.csv"; //relative path
 		ArrayList<Item> items = new ArrayList<Item>();
 		try {
 			Scanner inventory = new Scanner(new File(path));
